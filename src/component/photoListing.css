@@ -1,0 +1,65 @@
+
+/* photo listing  */
+.photoListingContainer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 380px;
+}
+.photoListItems{
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    max-width: 300px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.photoListItems img{
+    max-width: 150px;
+    border-radius: 5px;
+}
+.textContent{
+    text-align: left;
+}
+.textContent a{
+    text-decoration: none;
+    color: white;
+}
+.imgCompareButton{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    background-color: black;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.imgCompareButton:hover{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    background-color: white;
+    color: black;
+    outline: none;
+    cursor: pointer;
+
+}
+@media only screen and (max-width: 900px){
+    .photoListingContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+    }
+}
+/* compare table data */
+.compareTable{
+    width: 100%;
+    border: 1px solid gray;
+}
+table, tr, td {
+    border: 1px solid gray;
+    border-radius: 5px;
+    border-collapse: collapse;
+}
